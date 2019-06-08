@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//----------------------------------
+
+@import 'variables';
+
+
+// Plugins
+//----------------------------------
+
+@import '../../plugins/bootstrap/scss/bootstrap';
+@import '../../plugins/fontawesome/font-awesome';
+@import '../../../../node_modules/toastr/toastr';
+
+@import './style.scss';

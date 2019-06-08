@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/**
+ * Backend
+ */
+// Route::get('/dashboard/{vue?}', function () {
+//     return view('admin.app');
+// })->where('vue', '[\/\w\.-]*')->name('admin');
+
+/**
+ * Frontend
+ */
+Route::get('/{vue?}', function () {
+    return view('front.app');
+})->where('vue', '[\/\w\.-]*')->name('home');

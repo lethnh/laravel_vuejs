@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+}
+
+.list-style-none {
+    list-style: none;
+
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.main-color{
+    color: #00A4E1;
+}
+
+#app,
+main,
+.template-container,
+.auth-page {
+    height: 100%;
+}
+
+.template-container,
+.auth-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    height: 50px;
+}
+
+.bg-header {
+    background-color: #EFF5FB;
+}
+
+.bg-footer {
+    background-color: #EDEDED;
+}
+
+.bg-content {
+    background-color: #F5F5F5;
+}
+
+.item-footer .navbar {
+  padding: 0px;
+}
+
+.item-footer ul.navbar-nav {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.banner-title {
+  bottom: 200px;
+}
+
+.color-title {
+    color: #00A0E9;
+}
