@@ -31,11 +31,11 @@ mix.js('resources/assets/front/js/app.js', 'public/front/js/')
 | Admin
 |--------------------------------------------------------------------------
 */
-// mix.js('resources/assets/admin/js/app.js', 'public/admin/js/')
-// .sass('resources/assets/admin/sass/app.scss', 'public/admin/css/')
+mix.js('resources/assets/admin/js/app.js', 'public/admin/js/')
+.sass('resources/assets/admin/sass/app.scss', 'public/admin/css/')
 
-// .options({
-//     processCssUrls: false
-// })
+.options({
+    processCssUrls: false
+})
 
-// .version();
+.version();

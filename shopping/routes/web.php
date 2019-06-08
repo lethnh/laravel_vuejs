@@ -14,9 +14,9 @@
 /**
  * Backend
  */
-// Route::get('/dashboard/{vue?}', function () {
-//     return view('admin.app');
-// })->where('vue', '[\/\w\.-]*')->name('admin');
+Route::get('/dashboard/{vue?}', function () {
+    return view('admin.app');
+})->where('vue', '[\/\w\.-]*')->name('admin');
 
 /**
  * Frontend

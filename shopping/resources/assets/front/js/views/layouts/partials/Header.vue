@@ -5,9 +5,9 @@
         <div class="row align-items-center">
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="index.html">
+              <router-link to="/" class="navbar-brand">
                 <img src="/front/img/logo.png" alt="logo">
-              </a>
+              </router-link>
               <button
                 class="navbar-toggler"
                 type="button"
