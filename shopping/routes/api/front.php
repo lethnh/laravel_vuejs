@@ -17,4 +17,4 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::post('/auth/login/', 'Auth\LoginController@getProviderInfo');
+// Route::post('/auth/login/', 'Auth\LoginController@getProviderInfo');
